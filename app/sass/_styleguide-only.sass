@@ -5,44 +5,88 @@
 //*  Styleguide
 
 //*******************************/
+body
+  padding: 1rem
 
 h1
-  font-family: $ff-alt
+  color: #16161D
+  font-weight: 700
+  line-height: 1.2em
+  margin-bottom: 1rem
+  a
+    color: #16161D
+  a.hover
+    color: $primary-color
 
 h2
-  font-family: $ff-primary
+  color: $secondary-color
+  line-height: 1.4em
+  
+h3
+  font-weight: 700
+
+h4
+  color: $primary-color
 
 
-section
-  margin-bottom: 50px
+h5
+  color: $secondary-color
+  font-weight: 400
+  a
+    color: $primary-color
+p
+  max-width: 720px
 
-.header
-  padding-bottom: 20px
-  padding-top: 20px
 
-.banner
-  background: $secondary-color
-  padding: 20px 0
-  display: block
+// Banner
 
-.content
-  padding-top: rem-calc(50)
+.logo
+  padding-top: .5rem
+  padding-left: 1rem
+  position: fixed
 
-.type
-  h4, .h4,
-  h5, .h5,
-  h6, .h6,
-  p
-    margin-top: $paragraph-line-height
-    margin-bottom: $paragraph-line-height / 2
+.wordmark
+  padding-top: 1.5rem
+  padding-left: 1rem
 
-.content.container
-  padding-top: 30px
+.menu
+  padding-top: 1.5rem
+
+
+// Content Types
+
+.project-title
+  padding-bottom: 1rem
+  padding-top: 4rem
+
+.body-content
+  padding-bottom: 2rem
+
+.project-img
+  padding-bottom: 2rem
+
+.project-img-wide
+  padding-bottom: 2rem
+  padding-left: 0rem
+  padding-right: 0rem
+
+.project-thumb-img
+  padding-bottom: .5rem
+
+.project-thumb
+  padding-bottom: 1rem
+
+.more-work
+  padding-top: 1rem
+  padding-bottom: 1rem
+
+.footer
+  margin-bottom: 2rem
+
 
 // Headers
 
-p + hr
-  margin-top: rem-calc(-10)
+
 
 .color-swatch
   margin-bottom: 44px
