@@ -431,8 +431,8 @@ select {
     margin-right: 0; }
   .row .row {
     width: auto;
-    margin-left: -0.875rem;
-    margin-right: -0.875rem;
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: none; }
@@ -452,8 +452,8 @@ select {
         clear: both; }
 
 .column, .columns {
-  padding-left: 0.875rem;
-  padding-right: 0.875rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
   width: 100%;
   float: left; }
 
@@ -562,8 +562,8 @@ select {
     left: auto; }
   .column, .columns {
     position: relative;
-    padding-left: 0.875rem;
-    padding-right: 0.875rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
     float: left; }
   .small-1 {
     width: 8.3333333333%; }
@@ -733,8 +733,8 @@ select {
     left: auto; }
   .column, .columns {
     position: relative;
-    padding-left: 0.875rem;
-    padding-right: 0.875rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
     float: left; }
   .medium-1 {
     width: 8.3333333333%; }
@@ -1000,8 +1000,8 @@ select {
     left: auto; }
   .column, .columns {
     position: relative;
-    padding-left: 0.875rem;
-    padding-right: 0.875rem;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
     float: left; }
   .large-1 {
     width: 8.3333333333%; }
@@ -1191,7 +1191,7 @@ select {
         background: #e3e3e3; }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
       display: none;
-      padding: 0.875rem; }
+      padding: 1.75rem; }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
         display: block;
         background: #FFFFFF; }
@@ -4524,17 +4524,17 @@ blockquote, blockquote p {
   .tabs-content > .content {
     display: none;
     float: left;
-    padding: 0.875rem 0;
+    padding: 1.75rem 0;
     width: 100%; }
     .tabs-content > .content.active {
       display: block;
       float: none; }
     .tabs-content > .content.contained {
-      padding: 0.875rem; }
+      padding: 1.75rem; }
   .tabs-content.vertical {
     display: block; }
     .tabs-content.vertical > .content {
-      padding: 0 0.875rem; }
+      padding: 0 1.75rem; }
 
 @media only screen and (min-width:40.063em) {
   .tabs.vertical {
@@ -5803,9 +5803,6 @@ th.hide-for-touch {
 .half {
   width: 50%; }
 
-body {
-  padding: 1rem; }
-
 h1 {
   color: #16161D;
   font-weight: 700;
@@ -5817,13 +5814,14 @@ h1 {
     color: #0072bc; }
 
 h2 {
-  color: #676565;
+  color: #16161D;
   line-height: 1.4em;
   margin-bottom: 0px;
   padding-bottom: 0px;
   max-width: 620px; }
 
 h3 {
+  color: #16161D;
   font-weight: 700; }
 
 h4 {
@@ -5836,7 +5834,7 @@ h5 {
     color: #0072bc; }
 
 p {
-  max-width: 720px;
+  max-width: 620px;
   margin-bottom: 0px; }
 
 .logo {
@@ -5877,7 +5875,10 @@ p {
 .first-project-row {
   padding-top: 4rem; }
 
-.more-work {
+.padding-bottom {
+  padding-bottom: 2rem; }
+
+.more-padding {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
