@@ -5837,7 +5837,7 @@ body {
 p {
   padding-right: 0.875rem;
   margin-bottom: 0px;
-  max-width: 600px; }
+  max-width: 660px; }
 
 h1 {
   font-family: 'founders';
@@ -5851,26 +5851,30 @@ h1 {
 h2 {
   font-family: 'founders';
   line-height: 1.1em;
-  max-width: 40em; }
+  max-width: 40em;
+  max-width: 860px; }
 
 h3 {
   font-family: 'founders-text';
   font-weight: bold;
   line-height: 1.2em;
-  padding-right: 1.75rem; }
+  padding-right: 1.75rem;
+  max-width: 860px; }
   h3 a {
     color: #16161D; }
   h3 a.hover {
     color: #0072bc; }
 
 h4 {
-  font-family: 'founders-text'; }
+  font-family: 'founders-text';
+  font-weight: bold;
+  text-transform: uppercase; }
 
 h5 {
-  color: #676565;
-  max-width: 620px; }
+  max-width: 620px;
+  font-style: italic; }
   h5 a {
-    color: #0072bc; }
+    color: #676565; }
 
 .logo {
   padding-top: 0.875rem;
@@ -5884,6 +5888,19 @@ h5 {
   margin-top: 0px;
   margin-bottom: 0px;
   text-indent: 1.75rem; }
+
+.no-margin {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.small-padding {
+  padding-bottom: 0.875rem; }
+
+.medium-padding {
+  padding-bottom: 1.75rem; }
+
+.large-padding {
+  padding-bottom: 3.5rem; }
 
 .sub-title {
   padding-bottom: 0.875rem; }
@@ -5899,8 +5916,8 @@ h5 {
 .project-img-wide {
   padding-bottom: 1.75rem; }
 
-.project-thumb-img {
-  padding-bottom: 0.875rem; }
+.img-small {
+  padding-bottom: 1.75rem; }
 
 .project-thumb {
   padding-bottom: 1.75rem; }
