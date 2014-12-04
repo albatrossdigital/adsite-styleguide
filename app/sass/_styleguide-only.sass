@@ -38,28 +38,44 @@
 
 body
   padding: .875rem
-
 p
+  padding-left: .15rem
   padding-right: .875rem
-  margin-bottom: 0px
   max-width: 660px
+
+  a
+    color: $monsoon
+    border-bottom: 1px solid $primary-color
+  a.hover
+    color: $primary-color
+    border-bottom: 1px solid $primary-color
 
 
 h1
   font-family: $ff-alt
   line-height: .9em
   color: $primary-color
+  max-width: 860px
+  margin-top: 0
 
   a
-    color: #16161D
+    color: $secondary-color
   a.hover
-    color: $primary-color
+    color: $monsoon
 
 h2
   font-family: $ff-alt
   line-height: 1.1em
   max-width: 40em
   max-width: 860px
+  padding-bottom: .875rem
+  padding-left: .1rem
+  margin-top: 0
+
+  a
+    color: $secondary-color
+  a.hover
+    border-bottom: 2px solid $iron
 
   
 h3
@@ -68,24 +84,36 @@ h3
   line-height: 1.2em
   padding-right: 1.75rem
   max-width: 860px
+  padding-left: .1rem
+  margin-top: 0
+
   a
-    color: #16161D
+    color: $secondary-color
   a.hover
-    color: $primary-color
+    color: $secondary-color
+    border-bottom: 2px solid $iron
 
 
 h4
   font-family: $ff-primary
   font-weight: bold
   text-transform: uppercase
+  padding-left: .15rem
+  margin-top: 0
 
 
 h5
   max-width: 620px
   font-style: italic
+  padding-left: .15rem
+  margin-top: 0
   
   a
-    color: $secondary-color
+    color: $monsoon
+    border-bottom: 1px solid $primary-color
+  a.hover
+    color: $primary-color
+    border-bottom: 1px solid $primary-color
 
 
 
@@ -102,15 +130,6 @@ h5
 
 // Content Types
 
-.indent-paragraph
-  margin-top: 0px
-  margin-bottom: 0px
-  text-indent: 1.75rem
-
-.no-margin
-  margin-bottom: 0
-  padding-bottom: 0
-
 .small-padding
   padding-bottom: .875rem
 
@@ -120,9 +139,6 @@ h5
 .large-padding
   padding-bottom: 3.5rem
 
-.sub-title
-  padding-bottom: .875rem
-
 .body-content
   padding-bottom: 1.75rem
 
@@ -131,30 +147,34 @@ h5
   padding-bottom: 1.75rem
   z-index: -100
 
-.project-img-wide
-  padding-bottom: 1.75rem
-
-.img-small
-  padding-bottom: 1.75rem
-
-.project-thumb
-  padding-bottom: 1.75rem
-
 .tags
   padding-top: 1.75rem
 
 .caption-large
   position: absolute
-  margin-top: -5.5rem
-  padding-left: .875rem
+  margin-top: -5.25rem
   padding-right: 1.25rem
-  padding-bottom: .875rem
+  padding-bottom: 1rem
   padding-top: .7rem
   background-color: $white
+  a
+    color: $secondary-color
+  a.hover
+    border-bottom: 2px solid $iron
+
+.note-teaser
+  background-color: $vapor
+  padding: 3.5rem 1.75rem 3rem 1.75rem
 
 .footer
   margin-bottom: 1.75rem
   margin-top: 3.5rem
+
+.uva
+  color: #d56e31
+
+.tacoma
+  color: #4f8eba
 
 
 
