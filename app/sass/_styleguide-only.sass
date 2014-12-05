@@ -41,42 +41,40 @@ body
 p
   padding-left: .15rem
   padding-right: .875rem
-  max-width: 660px
+  max-width: 40rem
 
   a
     color: $monsoon
-    border-bottom: 1px solid $primary-color
-  a.hover
-    color: $primary-color
-    border-bottom: 1px solid $primary-color
+    &:hover
+      color: $steel
+      border-bottom: 1px solid $primary-color
 
 
 h1
   font-family: $ff-alt
-  line-height: .9em
   color: $primary-color
-  max-width: 860px
+  line-height: .9em
+  max-width: 60rem
   margin-top: 0
 
   a
-    color: $secondary-color
+    color: $primary-color
   a:hover
-    color: $monsoon
+    color: $jet
 
 h2
   font-family: $ff-alt
   line-height: 1.1em
-  max-width: 40em
-  max-width: 860px
-  padding-bottom: .875rem
+  max-width: 50rem
+  padding-bottom: .5rem
   padding-left: .1rem
   margin-top: 0
 
   a
     color: $secondary-color
     &:hover
-      color: $monsoon
-      border-bottom: 2px solid $iron
+      color: $secondary-color
+      border-bottom: 2px solid $primary-color
 
   
 h3
@@ -84,15 +82,15 @@ h3
   font-weight: bold
   line-height: 1.2em
   padding-right: 1.75rem
-  max-width: 860px
+  max-width: 50rem
   padding-left: .1rem
   margin-top: 0
 
   a
     color: $secondary-color
     &:hover
-      color: $monsoon
-      border-bottom: 2px solid $iron
+      color: $jet
+      border-bottom: 2px solid $primary-color
 
 
 h4
@@ -116,6 +114,17 @@ h5
     color: $primary-color
     border-bottom: 1px solid $primary-color
 
+h6
+  font-family: $ff-alt
+  line-height: .9em
+  padding-bottom: .875rem
+  padding-left: .1rem
+  margin-top: -.875rem
+
+  a
+    color: $primary-color
+    &:hover
+      color: $jet
 
 
 // Banner
@@ -157,17 +166,17 @@ h5
   background-color: $white
   a
     color: $secondary-color
-  a:hover
-    color: $iron
-    border-bottom: 2px solid $iron
+    &:hover
+      color: $secondary-color
+      border-bottom: 2px solid $primary-color
 
 .note-teaser
-  border-top: 2px solid $smoke
+  border-top: 2px solid $gainsboro
   padding-top: .874rem
   margin-bottom: 3.5rem
 
 .all-teaser
-  border-top: 2px solid $smoke
+  border-top: 2px solid $gainsboro
   padding-top: .874rem
   margin-bottom: 1.75rem
 
@@ -180,12 +189,17 @@ h5
   margin-bottom: .875rem
   margin-top: 3.5rem
 
-
+.wordmark
+  font-size: 56px
+  font-family: $ff-primary
+  font-weight: bold
+  margin-top: -.875rem
 .uva
   color: #d56e31
 
 .tacoma
   color: #4f8eba
+
 
 
 
