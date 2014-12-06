@@ -4266,7 +4266,7 @@ h5 {
   font-size: 1.25rem; }
 
 h6 {
-  font-size: 3.272405rem; }
+  font-size: 1rem; }
 
 .subheader {
   line-height: 1.4;
@@ -4419,7 +4419,7 @@ blockquote, blockquote p {
   h5 {
     font-size: 1.25rem; }
   h6 {
-    font-size: 3.272405rem; } }
+    font-size: 1rem; } }
 
 /*
        * Print styles.
@@ -5843,6 +5843,9 @@ p {
     p a:hover {
       color: #666666;
       border-bottom: 1px solid #0072bc; }
+      p a:hover:active {
+        color: #222222;
+        border-bottom: 1px solid #222222; }
 
 h1 {
   font-family: 'founders';
@@ -5851,15 +5854,19 @@ h1 {
   max-width: 60rem;
   margin-top: 0; }
   h1 a {
-    color: #0072bc; }
-  h1 a:hover {
     color: #222222; }
+    h1 a:hover {
+      color: #222222;
+      border-bottom: 2px solid #0072bc; }
+      h1 a:hover:active {
+        color: #666666;
+        border-bottom: 2px solid #666666; }
 
 h2 {
   font-family: 'founders';
   line-height: 1.1em;
   max-width: 50rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.875rem;
   padding-left: 0.1rem;
   margin-top: 0; }
   h2 a {
@@ -5867,13 +5874,16 @@ h2 {
     h2 a:hover {
       color: #222222;
       border-bottom: 2px solid #0072bc; }
+      h2 a:hover:active {
+        color: #666666;
+        border-bottom: 2px solid #666666; }
 
 h3 {
   font-family: 'founders-text';
   font-weight: bold;
   line-height: 1.2em;
   padding-right: 1.75rem;
-  max-width: 50rem;
+  max-width: 40rem;
   padding-left: 0.1rem;
   margin-top: 0; }
   h3 a {
@@ -5881,6 +5891,9 @@ h3 {
     h3 a:hover {
       color: #222222;
       border-bottom: 2px solid #0072bc; }
+      h3 a:hover:active {
+        color: #666666;
+        border-bottom: 2px solid #666666; }
 
 h4 {
   font-family: 'founders-text';
@@ -5895,22 +5908,18 @@ h5 {
   padding-left: 0.15rem;
   margin-top: 0; }
   h5 a {
-    color: #777777;
-    border-bottom: 1px solid #0072bc; }
-  h5 a:hover {
-    color: #0072bc;
-    border-bottom: 1px solid #0072bc; }
+    color: #777777; }
+    h5 a:hover {
+      color: #666666;
+      border-bottom: 1px solid #0072bc; }
+      h5 a:hover:active {
+        color: #222222;
+        border-bottom: 1px solid #222222; }
 
-h6 {
-  font-family: 'founders';
-  line-height: 0.9em;
-  padding-bottom: 0.875rem;
-  padding-left: 0.1rem;
-  margin-top: -0.875rem; }
-  h6 a {
-    color: #0072bc; }
-    h6 a:hover {
-      color: #222222; }
+.full-bg {
+  background-image: url("../images/fullbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .logo {
   padding-top: 0.875rem;
@@ -5919,6 +5928,15 @@ h6 {
 .menu {
   padding-top: 0.875rem;
   padding-right: 0.875rem; }
+
+.big-menu-links a {
+  color: #222222; }
+  .big-menu-links a:hover {
+    color: #222222;
+    border-bottom: 4px solid #0072bc; }
+    .big-menu-links a:hover:active {
+      color: #666666;
+      border-bottom: 4px solid #666666; }
 
 .small-padding {
   padding-bottom: 0.875rem; }
@@ -5929,8 +5947,9 @@ h6 {
 .large-padding {
   padding-bottom: 3.5rem; }
 
-.body-content {
-  padding-bottom: 1.75rem; }
+.caption-small {
+  font-size: 1.125rem;
+  padding-top: 0.125rem; }
 
 .project-img {
   position: relative;
@@ -5944,16 +5963,11 @@ h6 {
   padding-bottom: 1rem;
   padding-top: 0.7rem;
   background-color: #FFFFFF; }
-  .caption-large a {
-    color: #222222; }
-    .caption-large a:hover {
-      color: #222222;
-      border-bottom: 2px solid #0072bc; }
 
 .note-teaser {
   border-top: 2px solid #DDDDDD;
-  padding-top: 0.874rem;
-  margin-bottom: 3.5rem; }
+  padding-top: 0.875rem;
+  margin-bottom: 1.75rem; }
 
 .all-teaser {
   border-top: 2px solid #DDDDDD;
@@ -5967,11 +5981,23 @@ h6 {
   margin-bottom: 0.875rem;
   margin-top: 3.5rem; }
 
-.wordmark {
-  font-size: 56px;
-  font-family: 'founders-text';
-  font-weight: bold;
-  margin-top: -0.875rem; }
+.wordmark a {
+  color: #0072bc; }
+  .wordmark a:hover {
+    color: #222222;
+    border-bottom: none; }
+    .wordmark a:hover:active {
+      color: #666666;
+      border-bottom: none; }
+
+.social-net a {
+  color: #AAAAAA; }
+  .social-net a:hover {
+    color: #777777;
+    border-bottom: none; }
+    .social-net a:hover:active {
+      color: #222222;
+      border-bottom: none; }
 
 .uva {
   color: #d56e31; }

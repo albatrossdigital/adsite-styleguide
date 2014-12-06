@@ -38,6 +38,7 @@
 
 body
   padding: .875rem
+
 p
   padding-left: .15rem
   padding-right: .875rem
@@ -48,7 +49,9 @@ p
     &:hover
       color: $steel
       border-bottom: 1px solid $primary-color
-
+      &:active
+        color: $secondary-color
+        border-bottom: 1px solid $secondary-color
 
 h1
   font-family: $ff-alt
@@ -58,15 +61,19 @@ h1
   margin-top: 0
 
   a
-    color: $primary-color
-  a:hover
-    color: $jet
+    color: $secondary-color
+    &:hover
+      color: $secondary-color
+      border-bottom: 2px solid $primary-color
+      &:active
+        color: $steel
+        border-bottom: 2px solid $steel
 
 h2
   font-family: $ff-alt
   line-height: 1.1em
   max-width: 50rem
-  padding-bottom: .5rem
+  padding-bottom: .875rem
   padding-left: .1rem
   margin-top: 0
 
@@ -75,6 +82,10 @@ h2
     &:hover
       color: $secondary-color
       border-bottom: 2px solid $primary-color
+      &:active
+        color: $steel
+        border-bottom: 2px solid $steel
+
 
   
 h3
@@ -82,15 +93,18 @@ h3
   font-weight: bold
   line-height: 1.2em
   padding-right: 1.75rem
-  max-width: 50rem
+  max-width: 40rem
   padding-left: .1rem
   margin-top: 0
 
   a
     color: $secondary-color
     &:hover
-      color: $jet
+      color: $secondary-color
       border-bottom: 2px solid $primary-color
+      &:active
+        color: $steel
+        border-bottom: 2px solid $steel
 
 
 h4
@@ -109,25 +123,21 @@ h5
   
   a
     color: $monsoon
-    border-bottom: 1px solid $primary-color
-  a:hover
-    color: $primary-color
-    border-bottom: 1px solid $primary-color
-
-h6
-  font-family: $ff-alt
-  line-height: .9em
-  padding-bottom: .875rem
-  padding-left: .1rem
-  margin-top: -.875rem
-
-  a
-    color: $primary-color
     &:hover
-      color: $jet
+      color: $steel
+      border-bottom: 1px solid $primary-color
+      &:active
+        color: $secondary-color
+        border-bottom: 1px solid $secondary-color
+
 
 
 // Banner
+
+.full-bg
+  background-image: url("../images/fullbg.jpg")
+  background-size: cover
+  background-repeat: no-repeat
 
 .logo
   padding-top: .875rem
@@ -136,6 +146,16 @@ h6
 .menu
   padding-top: .875rem
   padding-right: .875rem
+
+.big-menu-links
+  a
+    color: $secondary-color
+    &:hover
+      color: $secondary-color
+      border-bottom: 4px solid $primary-color
+      &:active
+        color: $steel
+        border-bottom: 4px solid $steel
 
 
 // Content Types
@@ -149,8 +169,10 @@ h6
 .large-padding
   padding-bottom: 3.5rem
 
-.body-content
-  padding-bottom: 1.75rem
+
+.caption-small
+  font-size: 1.125rem
+  padding-top: .125rem
 
 .project-img
   position: relative
@@ -164,16 +186,11 @@ h6
   padding-bottom: 1rem
   padding-top: .7rem
   background-color: $white
-  a
-    color: $secondary-color
-    &:hover
-      color: $secondary-color
-      border-bottom: 2px solid $primary-color
 
 .note-teaser
   border-top: 2px solid $gainsboro
-  padding-top: .874rem
-  margin-bottom: 3.5rem
+  padding-top: .875rem
+  margin-bottom: 1.75rem
 
 .all-teaser
   border-top: 2px solid $gainsboro
@@ -190,10 +207,27 @@ h6
   margin-top: 3.5rem
 
 .wordmark
-  font-size: 56px
-  font-family: $ff-primary
-  font-weight: bold
-  margin-top: -.875rem
+  a
+    color: $primary-color
+    &:hover
+      color: $secondary-color
+      border-bottom: none
+      &:active
+        color: $steel
+        border-bottom: none
+
+.social-net
+  a
+    color: $base
+    &:hover
+      color: $monsoon
+      border-bottom: none
+      &:active
+        color: $secondary-color
+        border-bottom: none
+
+
+
 .uva
   color: #d56e31
 
