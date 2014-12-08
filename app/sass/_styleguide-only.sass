@@ -29,6 +29,10 @@
   font-weight: bold
   font-style: normal
 
+//******************
+
+//*   Media
+
 
 //********************************
 
@@ -51,7 +55,7 @@ p
       border-bottom: 1px solid $primary-color
       &:active
         color: $secondary-color
-        border-bottom: 1px solid $secondary-color
+        border-bottom: 1px solid $monsoon
 
 h1
   font-family: $ff-alt
@@ -67,7 +71,7 @@ h1
       border-bottom: 2px solid $primary-color
       &:active
         color: $steel
-        border-bottom: 2px solid $steel
+        border-bottom: 2px solid $monsoon
 
 h2
   font-family: $ff-alt
@@ -84,7 +88,7 @@ h2
       border-bottom: 2px solid $primary-color
       &:active
         color: $steel
-        border-bottom: 2px solid $steel
+        border-bottom: 2px solid $monsoon
 
 
   
@@ -104,7 +108,7 @@ h3
       border-bottom: 2px solid $primary-color
       &:active
         color: $steel
-        border-bottom: 2px solid $steel
+        border-bottom: 2px solid $monsoon
 
 
 h4
@@ -128,7 +132,7 @@ h5
       border-bottom: 1px solid $primary-color
       &:active
         color: $secondary-color
-        border-bottom: 1px solid $secondary-color
+        border-bottom: 1px solid $monsoon
 
 
 
@@ -169,10 +173,25 @@ h5
 .large-padding
   padding-bottom: 3.5rem
 
+.xl-padding
+  padding-bottom: 7rem
+
+
+.caption-img
+  position: relative
+  z-index: -100
 
 .caption-small
   font-size: 1.125rem
+  padding-left: .4rem
   padding-top: .125rem
+  margin-top: -1.75rem
+  background-color: #ffffff
+  padding-right: 1rem
+  padding-bottom: 1rem
+  opacity: .6
+  float: right
+
 
 .project-img
   position: relative
@@ -197,6 +216,20 @@ h5
   padding-top: .874rem
   margin-bottom: 1.75rem
 
+.menu-teaser
+  border-top: 2px solid $iron
+  padding-top: .875rem
+  margin-bottom: 1.75rem
+
+.navigation
+  background-color: $gainsboro
+
+.nav-teaser
+  border-top: 2px solid $tuatara
+  padding-top: .875rem
+  margin-bottom: 1.75rem
+  a
+    color: $secondary-color
 
 .custom-list
   list-style-type: none
@@ -208,9 +241,8 @@ h5
 
 .wordmark
   a
-    color: $primary-color
     &:hover
-      color: $secondary-color
+      color: $monsoon
       border-bottom: none
       &:active
         color: $steel
@@ -225,6 +257,20 @@ h5
       &:active
         color: $secondary-color
         border-bottom: none
+
+.quote
+  margin-top: .875rem
+  max-width: 36rem
+
+.quote-mark
+  color: $secondary-color
+
+.transparent-logo
+  opacity: .2
+  a
+    &:hover
+      opacity: 1
+
 
 
 
