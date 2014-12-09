@@ -5955,11 +5955,12 @@ h5 {
   z-index: -100; }
 
 .caption-small {
-  font-size: 1.125rem;
+  font-size: 1rem;
   padding-left: 0.4rem;
   padding-top: 0.125rem;
   margin-top: -1.75rem;
   background-color: #ffffff;
+  opacity: 0.4;
   padding-right: 1rem;
   padding-bottom: 1rem;
   opacity: 0.6;
