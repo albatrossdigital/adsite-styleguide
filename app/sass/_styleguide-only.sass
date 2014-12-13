@@ -42,6 +42,8 @@
 
 body
   padding: .875rem
+  @media #{$small-only}
+    padding: 0
 
 p
   padding-left: .15rem
@@ -57,6 +59,10 @@ p
         color: $secondary-color
         border-bottom: 1px solid $monsoon
 
+  @media #{$small-only}
+    font-size: 18px
+
+
 h1
   font-family: $ff-alt
   color: $primary-color
@@ -67,11 +73,9 @@ h1
   a
     color: $secondary-color
     &:hover
-      color: $secondary-color
-      border-bottom: 2px solid $primary-color
+      color: $monsoon
       &:active
         color: $steel
-        border-bottom: 2px solid $monsoon
 
 h2
   font-family: $ff-alt
@@ -84,11 +88,9 @@ h2
   a
     color: $secondary-color
     &:hover
-      color: $secondary-color
-      border-bottom: 2px solid $primary-color
+      color: $monsoon
       &:active
         color: $steel
-        border-bottom: 2px solid $monsoon
 
 
   
@@ -104,11 +106,9 @@ h3
   a
     color: $secondary-color
     &:hover
-      color: $secondary-color
-      border-bottom: 2px solid $primary-color
+      color: $monsoon
       &:active
         color: $steel
-        border-bottom: 2px solid $monsoon
 
 
 h4
@@ -146,6 +146,9 @@ h5
 .logo
   padding-top: .875rem
   padding-bottom: 1.75rem
+
+  @media #{$small-only}
+    max-width: 66px
 
 .menu
   padding-top: .875rem
@@ -201,11 +204,18 @@ h5
 
 .caption-large
   position: absolute
-  margin-top: -5.25rem
+  margin-top: -5rem
   padding-right: 1.25rem
   padding-bottom: 1rem
-  padding-top: .7rem
+  padding-top: .6rem
   background-color: $white
+
+  @media #{$small-only}
+    margin-top: -4.5rem
+    padding-right: 1rem
+    padding-bottom: .75rem
+    padding-top: .5rem
+    
 
 .note-teaser
   border-top: 2px solid $gainsboro
@@ -241,13 +251,13 @@ h5
   margin-top: 3.5rem
 
 .wordmark
-  a
-    &:hover
-      color: $monsoon
-      border-bottom: none
-      &:active
-        color: $steel
-        border-bottom: none
+  @media #{$small-only}
+    font-size: 36px
+
+.tagline
+  @media #{$small-only}
+    font-size: 27px
+
 
 .social-net
   a
@@ -277,6 +287,10 @@ h5
 
 .uva
   color: #d56e31
+  a
+    color: $secondary-color
+    &:hover
+      color: #d56e31
 
 .tacoma
   color: #4f8eba

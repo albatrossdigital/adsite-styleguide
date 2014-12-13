@@ -4251,19 +4251,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 0; }
 
 h1 {
-  font-size: 3.54475129rem; }
+  font-size: 3.25rem; }
 
 h2 {
-  font-size: 2.397405rem; }
+  font-size: 2rem; }
 
 h3 {
-  font-size: 1.6475rem; }
+  font-size: 1.5rem; }
 
 h4 {
-  font-size: 1.25rem; }
+  font-size: 1.125rem; }
 
 h5 {
-  font-size: 1.25rem; }
+  font-size: 1.125rem; }
 
 h6 {
   font-size: 1rem; }
@@ -4409,11 +4409,11 @@ blockquote, blockquote p {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
   h1 {
-    font-size: 5.29475129rem; }
+    font-size: 5.25rem; }
   h2 {
-    font-size: 3.272405rem; }
+    font-size: 3.25rem; }
   h3 {
-    font-size: 2.0225rem; }
+    font-size: 2rem; }
   h4 {
     font-size: 1.25rem; }
   h5 {
@@ -5833,6 +5833,9 @@ th.hide-for-touch {
 
 body {
   padding: 0.875rem; }
+  @media only screen and (max-width: 40em) {
+    body {
+      padding: 0; } }
 
 p {
   padding-left: 0.15rem;
@@ -5846,6 +5849,9 @@ p {
       p a:hover:active {
         color: #222222;
         border-bottom: 1px solid #777777; }
+  @media only screen and (max-width: 40em) {
+    p {
+      font-size: 18px; } }
 
 h1 {
   font-family: 'founders';
@@ -5856,11 +5862,9 @@ h1 {
   h1 a {
     color: #222222; }
     h1 a:hover {
-      color: #222222;
-      border-bottom: 2px solid #0072bc; }
+      color: #777777; }
       h1 a:hover:active {
-        color: #666666;
-        border-bottom: 2px solid #777777; }
+        color: #666666; }
 
 h2 {
   font-family: 'founders';
@@ -5872,11 +5876,9 @@ h2 {
   h2 a {
     color: #222222; }
     h2 a:hover {
-      color: #222222;
-      border-bottom: 2px solid #0072bc; }
+      color: #777777; }
       h2 a:hover:active {
-        color: #666666;
-        border-bottom: 2px solid #777777; }
+        color: #666666; }
 
 h3 {
   font-family: 'founders-text';
@@ -5889,11 +5891,9 @@ h3 {
   h3 a {
     color: #222222; }
     h3 a:hover {
-      color: #222222;
-      border-bottom: 2px solid #0072bc; }
+      color: #777777; }
       h3 a:hover:active {
-        color: #666666;
-        border-bottom: 2px solid #777777; }
+        color: #666666; }
 
 h4 {
   font-family: 'founders-text';
@@ -5924,6 +5924,9 @@ h5 {
 .logo {
   padding-top: 0.875rem;
   padding-bottom: 1.75rem; }
+  @media only screen and (max-width: 40em) {
+    .logo {
+      max-width: 66px; } }
 
 .menu {
   padding-top: 0.875rem;
@@ -5973,11 +5976,17 @@ h5 {
 
 .caption-large {
   position: absolute;
-  margin-top: -5.25rem;
+  margin-top: -5rem;
   padding-right: 1.25rem;
   padding-bottom: 1rem;
-  padding-top: 0.7rem;
+  padding-top: 0.6rem;
   background-color: #FFFFFF; }
+  @media only screen and (max-width: 40em) {
+    .caption-large {
+      margin-top: -4.5rem;
+      padding-right: 1rem;
+      padding-bottom: 0.75rem;
+      padding-top: 0.5rem; } }
 
 .note-teaser {
   border-top: 2px solid #DDDDDD;
@@ -6011,12 +6020,13 @@ h5 {
   margin-bottom: 0.875rem;
   margin-top: 3.5rem; }
 
-.wordmark a:hover {
-  color: #777777;
-  border-bottom: none; }
-  .wordmark a:hover:active {
-    color: #666666;
-    border-bottom: none; }
+@media only screen and (max-width: 40em) {
+  .wordmark {
+    font-size: 36px; } }
+
+@media only screen and (max-width: 40em) {
+  .tagline {
+    font-size: 27px; } }
 
 .social-net a {
   color: #AAAAAA; }
@@ -6041,6 +6051,10 @@ h5 {
 
 .uva {
   color: #d56e31; }
+  .uva a {
+    color: #222222; }
+    .uva a:hover {
+      color: #d56e31; }
 
 .tacoma {
   color: #4f8eba; }
@@ -6143,7 +6157,7 @@ i.fa {
     padding-right: 5px; }
 
 .block .block-title {
-  font-size: 2.0225rem;
+  font-size: 2rem;
   margin-top: 0; }
 
 .node-teaser {
