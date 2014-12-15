@@ -6020,14 +6020,6 @@ h5 {
   margin-bottom: 0.875rem;
   margin-top: 3.5rem; }
 
-@media only screen and (max-width: 40em) {
-  .wordmark {
-    font-size: 36px; } }
-
-@media only screen and (max-width: 40em) {
-  .tagline {
-    font-size: 27px; } }
-
 .social-net a {
   color: #AAAAAA; }
   .social-net a:hover {
