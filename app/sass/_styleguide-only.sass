@@ -81,7 +81,6 @@ h2
   font-family: $ff-alt
   line-height: 1.1em
   max-width: 50rem
-  padding-bottom: .875rem
   padding-left: .1rem
   margin-top: 0
 
@@ -215,6 +214,7 @@ h5
     padding-right: 1rem
     padding-bottom: .75rem
     padding-top: .5rem
+
     
 
 .note-teaser
@@ -247,8 +247,14 @@ h5
 
 
 .footer
-  margin-bottom: .875rem
-  margin-top: 3.5rem
+  margin-bottom: 3.5rem
+  margin-top: 7rem
+
+.wordmark
+  @media #{$small-only}
+    font-size: 32px
+  @media #{$medium-up}
+    font-size: 52px
 
 
 
@@ -265,6 +271,8 @@ h5
 .quote
   margin-top: .875rem
   max-width: 36rem
+  @media #{$small-only}
+    margin-top: -14px
 
 .quote-mark
   color: $secondary-color
@@ -274,8 +282,6 @@ h5
   a
     &:hover
       opacity: 1
-
-
 
 
 .uva

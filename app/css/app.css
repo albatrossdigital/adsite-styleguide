@@ -5870,7 +5870,6 @@ h2 {
   font-family: 'founders';
   line-height: 1.1em;
   max-width: 50rem;
-  padding-bottom: 0.875rem;
   padding-left: 0.1rem;
   margin-top: 0; }
   h2 a {
@@ -6017,8 +6016,15 @@ h5 {
   list-style-type: none; }
 
 .footer {
-  margin-bottom: 0.875rem;
-  margin-top: 3.5rem; }
+  margin-bottom: 3.5rem;
+  margin-top: 7rem; }
+
+@media only screen and (max-width: 40em) {
+  .wordmark {
+    font-size: 32px; } }
+@media only screen and (min-width:40.063em) {
+  .wordmark {
+    font-size: 52px; } }
 
 .social-net a {
   color: #AAAAAA; }
@@ -6032,6 +6038,9 @@ h5 {
 .quote {
   margin-top: 0.875rem;
   max-width: 36rem; }
+  @media only screen and (max-width: 40em) {
+    .quote {
+      margin-top: -14px; } }
 
 .quote-mark {
   color: #222222; }
